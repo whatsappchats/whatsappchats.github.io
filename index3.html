@@ -767,10 +767,10 @@ main {
 					let shareDesc = shareRandomDesc[Math.floor(Math.random() * shareRandomDesc.length)];
 					url = "*" + getbiaoqing() + encodeURIComponent(shareDesc) + getbiaoqing() + getbiaoqing() + "*%0A";
 					url += "*%F0%9F%94%9E" + encodeURIComponent(getdetailidx(0)) + "*%F0%9F%91%87%0A";
-					url += cdomain + getRandomString() + "%0A%0A";
+					url += cdomain + "%0A%0A";
 					
 					url += "*%F0%9F%94%9E" + encodeURIComponent(getdetailidx(1)) + "*%F0%9F%91%87%0A";
-					url += cdomain + getRandomString();
+					url += cdomain;
 					
 					let share = "whatsapp://send?text=" + url;
 					window.location.href = share;
