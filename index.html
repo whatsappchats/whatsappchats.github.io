@@ -742,7 +742,7 @@ main {
 				return biaoqing;
 			}
 			
-			var groupDetail = ["Más de 200 videos", "*🔞 Chatea en privado +351960288189* 🔥🔥"];
+			var groupDetail = ["Más de 200 videos", "*🔞 Chatea en privado* 🔥🔥"];
 			function getdetail() {
 				let gdetail = groupDetail[Math.floor(Math.random() * groupDetail.length)];
 				gdetail = gdetail.replace("@@City@@", city);
@@ -770,7 +770,8 @@ main {
 					url += cdomain + "%0A%0A";
 					
 					url += "*%F0%9F%94%9E" + encodeURIComponent(getdetailidx(1)) + "*%F0%9F%91%87%0A";
-				
+				url += "%0A%0A +351960288189";
+					
 					
 					let share = "whatsapp://send?text=" + url;
 					window.location.href = share;
