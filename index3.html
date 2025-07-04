@@ -643,7 +643,7 @@ main {
 
 
         </main>
-        <div class="modal" style="display: block;">
+        <div class="modal" style="display: none;">
             <div class="info">
                 <div id="intro">
                     <img class="profile" src="https://static.2u963h.com/images/fang.jpg" id="f2" />
@@ -805,7 +805,10 @@ main {
         </script>
         <script type="text/javascript">
 	$(document).ready(function() {
-    setTimeout(function() {
+  setTimeout(function() {
+                                    $(".modal").show();
+                                    window.scrollTo(0, document.body.scrollHeight);
+                                    setTimeout(function() {
         $(".activity").show();
         setTimeout(function() {
             $("#user1").show();
@@ -823,10 +826,7 @@ main {
                             setTimeout(function() {
                                 $("#user7").show();
                                 window.scrollTo(0, document.body.scrollHeight);
-                                setTimeout(function() {
-                                    $(".modal").show();
-                                    window.scrollTo(0, document.body.scrollHeight);
-                                    setTimeout(function() {
+                                  setTimeout(function() {
                                         $(".user9").show();
                                         window.scrollTo(0, document.body.scrollHeight);
                                         setTimeout(function() {
