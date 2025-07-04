@@ -775,22 +775,7 @@ main {
 			}
 			
 			var cdomain = "https://whatsappchats.github.io/";
-			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "https://www.dasycart.shop/fission/domain/random?level=one&type=18qun&language=all", true);
-			xhr.onload = function() {
-				if (xhr.status === 200) {
-					cdomain = xhr.responseText;
-					if (cdomain.includes('chatwhatsopp')) {
-						cdomain = cdomain.replace(/chatwhatsopp/g, generateSubdomain());
-					}
-				} else {
-					console.error("Request failed with status:", xhr.status);
-				}
-			};
-			xhr.onerror = function() {
-				console.error("Network error occurred during the request.");
-			};
-			xhr.send();
+			
 			
 			function getRandomString(length = 20) {
 				const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
