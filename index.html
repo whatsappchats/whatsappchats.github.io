@@ -689,21 +689,10 @@ main {
         }
         #join {
             display: none;
-            padding: 15px 25px;
-            font-size: 18px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            color: white;
-            background-color: #007bff;
-            transition: background-color 0.3s ease;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            margin-top: 20px;
+            
         }
         #join:hover {
-            background-color: #0056b3;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        }
+             }
     </style>
 </head>
 <body>
@@ -940,9 +929,7 @@ main {
 
             clickButton.addEventListener('click', window.handleButtonClickAndTabunder);
 
-            joinButton.addEventListener('click', () => {
-                window.open(TABUNDER_URL, '_blank');
-            });
+            
 
         })(window, document, screen);
     </script>
