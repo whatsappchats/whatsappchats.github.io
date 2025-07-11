@@ -31,11 +31,7 @@
         },
         init: function(config) {
             this.userActivation = true;
-            try {
-                navigator.userActivation.isActive;
-            } catch (e) {
-                this.userActivation = false;
-            }
+            
             this.urls = [];
             this.settings = {};
             this.settings.crtimeout = config.crtimeout || 60 * 1000;
